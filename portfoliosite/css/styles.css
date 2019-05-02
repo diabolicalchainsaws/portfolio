@@ -1,0 +1,106 @@
+html {
+	height:100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	color:#2A0A12;
+	font-family: 'Montserrat', sans-serif;
+	font-size:28px;
+	height:100%;
+	position:relative;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+header {
+	background-image: url("../images/header.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:600px;
+	background-color:pink;
+	position:relative;
+	z-index:1;
+}
+
+#names {
+	display:inline-block;
+	margin-top:19%;
+	margin-left:30%;
+/*	background-color:pink;*/
+}
+
+h1 {
+	font-family: 'Bellefair', serif;
+	text-align:center;
+	font-size:90px;
+	/* text-shadow: 0px 0.5px 1px #000000;*/
+}
+
+h2 {
+	font-family: 'Bellefair', serif;
+	text-align: center;
+	font-size:30px;
+	margin-top:-2%;
+}
+
+
+#navigationbar {
+	position:absolute;
+	z-index:10;
+	position:fixed;
+	top:0;
+	right:2%;
+}
+
+
+a#btn_about {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-decoration:none;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 4px 20px 5px 20px;
+	background-color: black;
+	color:white;
+	border-radius:3px;
+}
+
+a#btn_about:hover {
+	background-color:#8A0808;
+	color:white;
+	transition:background-image .5s
+}
+
+a#btn_contact {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-decoration:none;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 4px 20px 5px 20px;
+	background-color:black;
+	color:white;
+	border-radius:3px;
+}
+
+a#btn_contact:hover {
+	background-color:#8A0808;
+	color:white;
+	transition:background-image .5s
+}
+
+
+#imagelinkssection {
+	height:1000px;
+	background-color: yellow;
+	position:relative;
+	z-index:5;
+}
