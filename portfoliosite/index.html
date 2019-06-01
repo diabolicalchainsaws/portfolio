@@ -2,13 +2,21 @@
 <html>
 <head>
 	<title>Claire Huang - DiabolicalChainsaws</title>
+	<link rel='icon' href='images/favicon.ico' type='image/x-icon'/ >
 	<meta charset="UTF-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">  -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Forum" rel="stylesheet">  -->
 	<!-- <link href="https://fonts.googleapis.com/css?family=Forum|Marcellus" rel="stylesheet">  -->
 	<link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css">
+	<script src="js/modernizr.custom.js"></script>
 
 	<link href="css/styles.css" rel="stylesheet">
 </head>
@@ -22,6 +30,9 @@
 
 	<div id="navigationbar">
 		<span class="button_container">
+				<a href="index.html" target="_self" id="btn_home" class="nav_button"><i class="fa fa-home" aria-hidden="true"></i></a>
+			</span>		
+		<span class="button_container">
 				<a href="about.html" target="_self" id="btn_about" class="nav_button">About</a>
 			</span>
 		<span class="button_container">
@@ -29,10 +40,43 @@
 			</span>
 	</div>
 
-	<div id="imagelinkssection">
-		
-
+	<div id="dragondivider">
 	</div>
+
+
+
+
+	<div id="imagelinkssection">
+		<section class="grid-wrap">
+				<ul class="grid swipe-right" id="grid">
+					<!-- <li class="title-box">
+						<h2>Illustrations by Claire Huang</a></h2>
+					</li> -->
+					<li><a href="about.html"><img src="images/devilsdice.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/gathering.jpg" alt="Devil's Dice"><h3>Little Figures</h3></a></li>
+					<li><a href="#"><img src="images/lanternfest.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/morose.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/witch.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/dance.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/angelsinamerica.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/drift.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/queen.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/sheep.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+					<li><a href="#"><img src="images/vesselstudies.jpg" alt="Devil's Dice"><h3>Devil's Dice</h3></a></li>
+				</ul>
+			</section>
+	</div>
+
+	<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/colorfinder-1.1.js"></script>
+		<script src="js/gridScrollFx.js"></script>
+		<script>
+			new GridScrollFx( document.getElementById( 'grid' ), {
+				viewportFactor : 0.4
+			} );
+		</script>
 
 </body>
 </html>
